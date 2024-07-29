@@ -1,0 +1,39 @@
+name: spell_it
+description: Android Development Project
+
+version: 1.2.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # تحديث النطاق ليتوافق مع إصدار Dart 3.3.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.7.0 
+  shared_preferences: ^2.2.3
+  http: ^1.0.0
+  cupertino_icons: ^1.0.6 
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Italic.ttf
+        - asset: fonts/RobotoMono-Medium.ttf
+        - asset: fonts/RobotoMono-Bold.ttf
